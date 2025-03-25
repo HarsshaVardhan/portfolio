@@ -1,42 +1,53 @@
 .about-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 40px;
-    overflow: hidden; /* Removes scroll */
-  }
-  
-  .about-text {
-    flex: 1;
-    max-width: 55%;
-    color: #fff;
-  }
-  
-  .about-text h1, h2 {
-    color: #ffcc00;
-    text-align: left;
-  }
-  
-  .about-text p, ul {
-    font-size: 18px;
-    line-height: 1.5;
-  }
-  
- 
-  
-  .icon {
-    margin-left: 5px;
-    color: #ffcc00;
-  }
-  
-  .about-img {
-    width: 350px;
-    height: auto;
-    border-radius: 10px;
-    object-fit: cover;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 40px;
+  overflow: hidden; /* Removes scroll */
 }
-  
+
+.about-text {
+  flex: 1;
+  max-width: 55%;
+  color: #fff;
+}
+
+.about-text h1, h2 {
+  color: #ffcc00;
+  text-align: left;
+}
+
+.about-text p, ul {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Icon size adjustments */
+.icon {
+  margin-left: 5px;
+  color: #ffcc00;
+  vertical-align: middle; /* Align properly with text */
+}
+
+.icon.small {
+  font-size: 14px; /* Smaller icons for inline text */
+}
+
+.icon.medium {
+  font-size: 18px; /* Medium-sized icons for section headers */
+}
+
+.icon.large {
+  font-size: 22px; /* Larger icons if needed */
+}
+
+.about-img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

@@ -10,19 +10,21 @@ const AboutMe = () => {
         <h1>About Me</h1>
         <p>
           I'm <strong>G Harsha Vardhan Reddy</strong>, a passionate developer skilled in 
-          <FaJava className="icon" /> <strong>Java</strong>, <SiSpringboot className="icon" /> <strong>Spring Boot</strong>,  
-          <FaReact className="icon" /> <strong>React</strong>, and <SiDjango className="icon" /> <strong>Django</strong>.  
+          <FaJava className="icon small" /> <strong>Java</strong>, 
+          <SiSpringboot className="icon small" /> <strong>Spring Boot</strong>,  
+          <FaReact className="icon small" /> <strong>React</strong>, and 
+          <SiDjango className="icon small" /> <strong>Django</strong>.  
           I enjoy solving real-world problems through code and continuously learning new technologies.
         </p>
 
-        <h2><FaProjectDiagram className="icon" /> Web Development Projects</h2>
+        <h2><FaProjectDiagram className="icon medium" /> Web Development Projects</h2>
         <ul>
           <li>
             <strong>Online Bidding System</strong> (Spring Boot, MySQL)
             <ul>
               <li>Developed a secure and scalable auction platform.</li>
               <li>Implemented JWT-based authentication and RBAC.</li>
-              <li>Optimized <SiMysql className="icon" /> <strong>MySQL</strong> database schema for efficiency.</li>
+              <li>Optimized <SiMysql className="icon small" /> <strong>MySQL</strong> database schema for efficiency.</li>
               <li>Used <strong>Git & GitHub</strong> for version control.</li>
             </ul>
           </li>
@@ -35,7 +37,7 @@ const AboutMe = () => {
           </li>
         </ul>
 
-        <h2><FaBrain className="icon" /> Machine Learning & Image Processing</h2>
+        <h2><FaBrain className="icon medium" /> Machine Learning & Image Processing</h2>
         <ul>
           <li>
             <strong>Grape Quality Prediction for Winemaking</strong>  
@@ -47,22 +49,21 @@ const AboutMe = () => {
           <li>
             <strong>Real-Time Age & Gender Detection</strong>
             <ul>
-              <li>Implemented <SiOpencv className="icon" /> OpenCV, CNN, and DNN for real-time predictions.</li>
+              <li>Implemented <SiOpencv className="icon small" /> OpenCV, CNN, and DNN for real-time predictions.</li>
               <li>Optimized accuracy for facial recognition applications.</li>
             </ul>
           </li>
         </ul>
 
-        <h2><FaRobot className="icon" /> Additional Interests</h2>
+        <h2><FaRobot className="icon medium" /> Additional Interests</h2>
         <ul>
           <li>Exploring <strong>user experience (UX)</strong> in different applications.</li>
-          <li><FaGamepad className="icon" /> Interested in gaming to understand <strong>gameplay mechanics</strong>.</li>
+          <li><FaGamepad className="icon small" /> Interested in gaming to understand <strong>gameplay mechanics</strong>.</li>
           <li>Worked on creating bots using <strong>Automation Anywhere</strong>.</li>
           <li>Currently working on integrating bots into web applications.</li>
         </ul>
       </div>
       <img src={process.env.PUBLIC_URL + "/Images/profile.jpg"} alt="Profile" className="about-img" />
-
     </div>
   );
 };
