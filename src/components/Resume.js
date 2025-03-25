@@ -11,8 +11,6 @@ function Resume() {
         style={{ border: "none" }}
         title="Resume"
       ></iframe>
-
-
     </div>
   );
 }
