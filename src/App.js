@@ -35,7 +35,7 @@ function App() {
       <div className={darkMode ? "dark-mode" : "light-mode"}>
         <Navbar darkMode={darkMode} toggleTheme={toggleTheme} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Home />} />
           <Route path="/about" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/academics" element={<Academics />} />
