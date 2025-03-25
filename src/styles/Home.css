@@ -1,0 +1,59 @@
+/* src/styles/Home.css */
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 0 10%;
+}
+
+.text-content {
+  max-width: 50%;
+}
+
+h1 {
+  font-size: 3rem;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: var(--subtext-color);
+}
+
+/* Social Media Icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icon {
+  font-size: 2rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.github {
+  color: #171515;
+}
+
+.instagram {
+  color: #e4405f;
+}
+
+.profile-img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

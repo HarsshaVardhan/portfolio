@@ -1,0 +1,56 @@
+.projects-container {
+    text-align: center;
+    padding: 5% 10%;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #f7c948;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.project-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.project-icon {
+    font-size: 2rem;
+    color: #f7c948;
+    margin-top: 10px;
+}
+
+.project-info h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #f7c948;
+}
+
+.project-info p {
+    font-size: 1rem;
+    color: #bbb;
+}

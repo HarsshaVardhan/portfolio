@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+:root {
+  --text-dark: #222; /* Dark text for light mode */
+  --text-light: #fff; /* Light text for dark mode */
+  --background-dark: #222;
+  --background-light: #fff;
+  --highlight-color: #f7c948;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body.light-mode {
+  background-color: var(--background-light);
+  color: var(--text-dark);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body.dark-mode {
+  background-color: var(--background-dark);
+  color: var(--text-light);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Ensure all text elements update correctly */
+h1, h2, h3, p, li, span, strong {
+  color: inherit !important;
 }
 
-.App-link {
-  color: #61dafb;
+/* Highlighting */
+.dark-mode h1, 
+.dark-mode h2, 
+.dark-mode p, 
+.dark-mode li, 
+.dark-mode strong {
+  color: var(--text-light) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.light-mode h1, 
+.light-mode h2, 
+.light-mode p, 
+.light-mode li, 
+.light-mode strong {
+  color: var(--text-dark) !important;
 }

@@ -1,0 +1,42 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #333; /* Dark background */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #f5a623; /* Highlight color */
+  }
+  
+  /* Dark/Light Mode Button */
+  .theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+  }
+  
+  /* Ensure Navbar Stretches */
+  .navbar-container {
+    width: 100%;
+  }
+  

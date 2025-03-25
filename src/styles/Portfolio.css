@@ -1,0 +1,24 @@
+.page-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensures full-page height */
+    padding: 0 10%;
+}
+
+.content {
+    text-align: center;
+    width: 50%;
+}
+
+.image-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
