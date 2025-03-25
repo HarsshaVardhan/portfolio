@@ -11,7 +11,7 @@ const Projects = () => {
       <div className="projects-list">
         {/* Grape Quality Prediction */}
         <div className="project-card">
-          <img src="/images/grape.png" alt="Grape Quality Prediction" className="project-img" />
+          <img src={process.env.PUBLIC_URL + "/Images/grape.png"} alt="Grape Quality Prediction" className="project-img" />
           <div className="project-info">
             <FaBrain className="project-icon" />
             <h2>Grape Quality Prediction</h2>
@@ -21,7 +21,7 @@ const Projects = () => {
 
         {/* Real-Time Age & Gender Detection */}
         <div className="project-card">
-          <img src="/images/realtime.png" alt="Real-Time Age & Gender Detection" className="project-img" />
+          <img src={process.env.PUBLIC_URL + "/Images/realtime.png"} alt="Real-Time Age & Gender Detection" className="project-img" />
           <div className="project-info">
             <FaRobot className="project-icon" />
             <h2>Real-Time Age & Gender Detection</h2>
@@ -31,7 +31,7 @@ const Projects = () => {
 
         {/* E-learning Platform */}
         <div className="project-card">
-          <img src="/images/elearning.png" alt="E-learning Platform" className="project-img" />
+          <img src={process.env.PUBLIC_URL + "/Images/elearning.png"} alt="E-learning Platform" className="project-img" />
           <div className="project-info">
             <FaChalkboardTeacher className="project-icon" />
             <h2>E-learning Platform</h2>
@@ -41,7 +41,7 @@ const Projects = () => {
 
         {/* Online Bidding System */}
         <div className="project-card">
-          <img src="/images/auction.png" alt="Online Bidding System" className="project-img" />
+          <img src={process.env.PUBLIC_URL + "/Images/auction.png"} alt="Online Bidding System" className="project-img" />
           <div className="project-info">
             <FaGavel className="project-icon" />
             <h2>Online Bidding System</h2>
@@ -51,7 +51,7 @@ const Projects = () => {
 
         {/* Chat Application */}
         <div className="project-card">
-          <img src="/images/chatapplication.png" alt="Chat Application" className="project-img" />
+          <img src={process.env.PUBLIC_URL + "/Images/chatapplication.png"} alt="Chat Application" className="project-img" />
           <div className="project-info">
             <FaComments className="project-icon" />
             <h2>Chat Application</h2>
