@@ -61,7 +61,8 @@ const AboutMe = () => {
           <li>Currently working on integrating bots into web applications.</li>
         </ul>
       </div>
-      <img src="/images/profile.jpg" alt="Profile" className="about-img" />
+      <img src={process.env.PUBLIC_URL + "/Images/profile.jpg"} alt="Profile" className="about-img" />
+
     </div>
   );
 };

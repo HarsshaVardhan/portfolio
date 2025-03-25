@@ -65,7 +65,8 @@ const Contact = () => {
       </div>
 
       {/* Profile Image */}
-      <img src="/images/profile.jpg" alt="Profile" className="contact-img" />
+      <img src={process.env.PUBLIC_URL + "/Images/profile.jpg"} alt="Profile" className="contact-img" />
+
     </div>
   );
 };

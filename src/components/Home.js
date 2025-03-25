@@ -32,8 +32,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      
-      <img src="/images/profile.jpg" alt="Profile" className="profile-img" />
+      <img src={process.env.PUBLIC_URL + "/Images/profile.jpg"} alt="Profile" className="profile-img" />
     </div>
   );
 };
